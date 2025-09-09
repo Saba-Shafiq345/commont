@@ -1,0 +1,103 @@
+        body {
+            font-family: sans-serif;
+            background: #030202;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .username {
+            font-weight: bold;
+        }
+
+        .time {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .actions {
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+        }
+
+        .text {
+            margin: 10px 0;
+             font-size: 12px;
+        }
+
+        .vote {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .vote button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .replies {
+            border-left: 2px solid #dddddd;
+            margin-left: 20px;
+            padding-left: 20px;
+           
+        }
+
+        .composer {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .composer textarea {
+            flex: 1;
+            font-size: 15px;
+            resize: none;
+           
+        }
+        .newComment{
+            width: 200px;
+            background-color: aqua;
+        }
+        
+
+        .btn {
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+          
+        }
+
+        .primary {
+            background: blue;
+            color: #fff;
+        }
